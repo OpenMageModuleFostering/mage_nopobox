@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package>
+    <name>Mage_nopobox</name>
+    <version>1.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Check shipping address whether it contains POBOX.</summary>
+    <description>The extension updates the Magento checkout fields to prevent shipping to a POBOX address. It also provides error message to inform customers that they must enter a valid shipping address before proceeding through checkout.&#xD;
+&#xD;
+&lt;h1 id="!how-to-install"&gt;How to install&lt;/h1&gt;&#xD;
+&lt;ol&gt;&lt;li&gt;install extension ,please follow this pdf &lt;a href="http://info.magento.com/rs/magentocommerce/images/InstallingMagentoConnectExtensions4%200.pdf"&gt;Magento Connect Installing Extensions (PDF)&lt;/a&gt; .&#xD;
+&lt;/li&gt;&lt;li&gt;Go to System-&amp;gt;Configuration-&amp;gt;Matt Module-&amp;gt;Matt Nopobox Setting-&amp;gt;Options, set Enabled to Yes and save config.&#xD;
+&lt;/li&gt;&lt;li&gt;it will works very well!&#xD;
+&lt;/li&gt;&lt;/ol&gt;&#xD;
+&lt;h1 id="!features"&gt;Features&lt;/h1&gt;&#xD;
+&lt;ul&gt;&lt;li&gt;add admin config option&#xD;
+&lt;/li&gt;&lt;li&gt;add allow country option&#xD;
+&lt;/li&gt;&lt;li&gt;add custom error message option&lt;/li&gt;&lt;/ul&gt;</description>
+    <notes>Matt Nopobox extension 1.1.0 has release!&#xD;
+Features&#xD;
+1. add admin config option&#xD;
+2. add allow country option&#xD;
+3. add custom error message option</notes>
+    <authors><author><name>Matt</name><user>caijiamx</user><email>caijiamx@gmail.com</email></author></authors>
+    <date>2012-11-06</date>
+    <time>14:20:02</time>
+    <contents><target name="magecommunity"><dir name="."><file name="Matt_Nopobox.xml" hash=""/></dir><dir name="Matt"><dir name="Nopobox"><dir name="Helper"><file name="Data.php" hash="7938eca0ac63785cb781de7f449b939b"/></dir><dir name="Model"><dir name="Quote"><file name="Address.php" hash="124031fbcf90c26a91f03bdf09683333"/></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="3cf3615c201fccd9f78cd516c2c2efe6"/><file name="config.xml" hash="e5d57d2c7820ca7cede168449b0b5cb9"/><file name="system.xml" hash="ad439be480877a1b7a503c2299e1bad0"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
