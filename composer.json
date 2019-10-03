@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Mage_nopobox",
+    "name": "OpenMageModuleFostering\/Mage_nopobox",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "Check shipping address whether it contains POBOX.",
     "authors": [
-    {
-        "name": "Matt",
-        "email": "caijiamx@gmail.com"
-    }
-],
+        {
+            "name": "Matt",
+            "email": "caijiamx@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
