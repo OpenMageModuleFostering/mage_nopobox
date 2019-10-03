@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Mage_nopobox",
+    "name": "openmage-module-fostering\/mage_nopobox",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Check shipping address whether it contains POBOX.",
     "authors": [
